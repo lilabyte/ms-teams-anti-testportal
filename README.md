@@ -35,6 +35,7 @@ eval(`${blurSpyFunction} = () => {
     setEndTimeCookie();
     eraseCookie('blurs');
 }`)
+document.getElementById('honestRespondentBlockade_popup').remove()
 window['honestRespondentBlockade_popup'] = undefined
 window.onerror = () => true
 ```
