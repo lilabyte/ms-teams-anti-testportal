@@ -3,8 +3,7 @@ Tutorial how to use ms-teams-anti-testportal with Microsoft Teams App!
 
 [Greetings](https://www.youtube.com/watch?v=c-Z4me0FIVw)
 
-# Introduction
-First of all, the notification to the teacher about changing the window is a lie. The teacher does not have such data. The testportal simply sends your test if you reach the maximum number of window changes set by the teacher. Secondly you have to do it manually because I will not pay for the microsoft developer account to make extension for teams.
+You have to do it manually because I will not pay for the microsoft developer account to make extension for teams.
 
 # Tutorial
 
