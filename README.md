@@ -25,6 +25,7 @@ and change the console level to extension-tab-frame
 ![Level](https://i.imgur.com/sgEilg4.png)
 
 Finally you can start your test and run the code below in your console
+
 **YOU MUST RUN THIS CODE FOR EVERY QUESTION ON YOUR TEST SINCE THE BLURSPY FUNCTION AND WHOLE IFRAME CHANGES RANDOMLY WITH THE QUESTION**
 ```js
 const blurSpyScript = Array.from(document.querySelectorAll('body script')).find(script => script.text.includes('var onBlurHandler = function () {')).text.trim()
