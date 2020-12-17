@@ -28,8 +28,7 @@ Finally you can start your test and run the code below in your console
 
 **YOU MUST RUN THIS CODE FOR EVERY QUESTION ON YOUR TEST SINCE THE BLURSPY FUNCTION AND WHOLE IFRAME CHANGES RANDOMLY WITH THE QUESTION**
 ```js
-const blurSpyScript = Array.from(document.querySelectorAll('body script')).find(script => script.text.includes('var onBlurHandler = function () {')).text.trim()
-const blurSpyFunction = script.substring(4, 12)
+const blurSpyFunction = Array.from(document.querySelectorAll('body script')).find(script => script.text.includes('var onBlurHandler = function () {')).text.trim().substring(4, 12)
 eval(`${blurSpyFunction} = () => {
     console.log('Fuck testportal')
     document.forms["questionForm"]["wb"].value = 0;
